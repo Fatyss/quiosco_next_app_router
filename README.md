@@ -1,5 +1,34 @@
 ******Historial de Cambios******
 
+[        Junio 6, 2024         ]
+***Proyecto terminado:
+  - Se agregó una vista para ver los pedidos listos.
+  - Se añadió un tiempo específico para que se recargue el contenido de la página.
+*** Edición de productos:
+  - Ya se puede editar el producto y guardar cambios en la base de datos.
+  - Se validó que, en caso de no encontrar el producto en la base de datos, redirecciona a una página para avisar que no se encontró.
+*** Problemas con imágenes:
+  - Se resolvió el problema de que no se muestra la imagen; ya se agrega el producto correctamente y se muestra en el catálogo.
+  - Ya sube la información del nuevo producto a la base de datos; se identificó un problema donde no se muestra la imagen del producto (aún no se obtiene la imagen de Cloudinary).
+*** Sección para agregar imágenes:
+  - Se agregó una sección para subir imágenes.
+  - Se creó una cuenta en Cloudinary.
+  - Aún falta que se guarde la información en la base de datos, pero ya muestra la imagen que se sube en el formulario.
+
+[        Junio 4, 2024         ]
+*** Validaciones en formulario:
+  - Se realizaron validaciones en los campos de nombre, categoría y precio.
+  - Falta agregar un campo para subir una fotografía y que la información se envíe a la base de datos.
+
+Junio 3, 2024
+*** Formulario de productos:
+  - Se agregó un formulario para crear un producto; falta arreglar que muestre las categorías y que se pueda agregar una foto.
+  - Se añadió un formulario de búsqueda completamente funcional en la tabla de productos.
+*** Paginación de productos:
+  - Se arregló la paginación de productos.
+  - Se añadieron botones de anterior y siguiente, además de numeración de la página actual.
+
+
 [        Junio 2, 2024         ]
 ***Sección de órdenes:
   - Se terminó de configurar el botón de completado.
