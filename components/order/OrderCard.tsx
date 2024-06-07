@@ -1,9 +1,9 @@
 import { completeOrder } from "@/actions/complete-order-action"
-import { OrderWhithProducts } from "@/src/types"
+import { OrderWithProducts } from "@/src/types"
 import { formatCurrency } from "@/src/utils"
 
 type OrderCardProps = {
-    order: OrderWhithProducts
+    order: OrderWithProducts
 }
 export default function OrderCard({ order }: OrderCardProps) {
 
